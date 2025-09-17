@@ -7,6 +7,7 @@
 mvn -q package
 java -XX:+AlwaysActAsServerClassMachine      -XX:+UseNUMA -XX:+UseStringDeduplication      -jar target/yoctotrader-1.0.0.jar
 ```
+You’ll see order logs and periodic latency stats (in nanoseconds).
 
 ### Docker Hub 
 docker run --rm -it simocoder/yoctotrader:latest
@@ -14,8 +15,6 @@ docker run --rm -it simocoder/yoctotrader:latest
 ### Or GHCR 
 docker run --rm -it ghcr.io/simocoder/yoctotrader:latest
 
-
-You’ll see order logs and periodic latency stats (in nanoseconds).
 
 ## What to learn here
 - Lock-free handoff via **Disruptor**
