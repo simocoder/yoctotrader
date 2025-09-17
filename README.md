@@ -26,3 +26,7 @@ docker run --rm -it ghcr.io/simocoder/yoctotrader:latest
 - Replace the random-walk feed with real UDP/Aeron
 - Encode with SBE/Chronicle instead of POJOs
 - Pin threads to CPUs, profile with JFR/async-profiler
+
+## Full description
+The full description can be found here:
+[www.rebelyaml.com/posts/yoctotrader/](https://www.rebelyaml.com/posts/yoctotrader/)
